@@ -1,0 +1,32 @@
+$navbarHeight: 55px;
+
+.navbar {
+  background-color: #FFF;  
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: $navbarHeight;
+  z-index: 1000;
+  
+  &.is-hidden {
+    transform: translate(0, -$navbarHeight - 10);
+    transition: transform 1s;
+  }
+  
+  &.is-visible {
+    transform: translate(0, 0);
+    transition: transform 1s;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    li {
+      display: inline-block;
+      padding: 1em;
+    }
+  }
+}
