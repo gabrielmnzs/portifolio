@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+import logo from './../../assets/logo.png';
 import './styles.scss';
 
 const Navbar = () => {
@@ -22,13 +23,18 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${show ? 'is-hidden' : 'is-visible'}`}>
-      <ul>
-        <li>Home</li>
-        <li>Sobre</li>
-        <li>Experiência</li>        
-        <li>Portifólio</li>        
-        <li>Contato</li>
-      </ul>
+      <picture>
+        <img src={logo} className="logo" alt="" />
+      </picture>
+      
+      <div>
+        <ul>
+          <li>Sobre</li>
+          <li>Experiência</li>        
+          <li>Portifólio</li>        
+          <li>Contato</li>
+        </ul>
+      </div>
     </nav>
   )
 }
