@@ -1,0 +1,125 @@
+$gradient-1: #1A619D; //#4f43cc;
+$gradient-2: #41C9A2; //#be44d2;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  padding: 10px 0;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.2rem;
+  text-transform: uppercase;  
+  letter-spacing: 0.1rem;
+}
+
+.description {
+  //padding: 5px 0;
+  padding-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.logo {
+  width: 500px;
+  height: 500px;
+  fill: url(#mygradient);
+  animation: floating 3s ease-in-out infinite;
+}
+
+.shadow {
+  margin-top: -36px;
+  width: 0px; 
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 10px solid rgba(255, 255, 255, 0.4);
+  filter: blur(4px);
+  opacity: 0.9;
+  animation: shadow 3s ease-in-out infinite;
+}
+
+#mygradient stop.start-color {
+  stop-color: $gradient-1;
+  animation: gradient 3s ease infinite;
+}
+
+#mygradient stop.end-color {
+  stop-color: $gradient-2;
+  animation: gradient2 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    stop-color: $gradient-1;
+  }
+  50% {
+    stop-color: $gradient-2;
+  }
+  100% {
+    stop-color: $gradient-1;
+  }
+}
+
+@keyframes gradient2 {
+  0% {
+    stop-color: $gradient-2;
+  }
+  50% {
+    stop-color: $gradient-1;
+  }
+  100% {
+    stop-color: $gradient-2;
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 10px solid rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 10px solid rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 10px solid rgba(255, 255, 255, 0.4);
+  }
+}
