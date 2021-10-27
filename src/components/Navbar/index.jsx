@@ -23,9 +23,9 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${show ? 'is-hidden' : 'is-visible'}`}>
-      <picture>
+      <figure>
         <img src={logo} className="logo" alt="" />
-      </picture>
+      </figure>
       
       <div>
         <ul>

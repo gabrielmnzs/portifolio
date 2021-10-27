@@ -1,21 +1,22 @@
-import "./App.scss";
+import React from 'react';
 
-import Navbar from "./components/Navbar";
-import { ReactComponent as Logo } from './assets/img/Logo.svg';
+import './styles/global.scss';
+
+import Intro from './Pages/Intro';
+import About from './Pages/About';
+import Work from './Pages/Work';
+import Portfolio from './Pages/Portfolio';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
-    <>
-      {/* <Navbar /> */}
-      <section className="section-main">
-        <div className="logo-container">
-          <h2 className="title">Gabriel Menezes</h2>
-          <span className="description">Desenvolvedor & Designer</span>
-          <Logo className="logo"></Logo>
-          <div className="shadow"></div>
-        </div>
-      </section>
-    </>
+    <main>
+      <Intro />
+      {/* <About />
+      <Work />
+      <Portfolio />
+      <Contact /> */}
+    </main>
   );
 }
 
