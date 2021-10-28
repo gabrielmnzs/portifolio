@@ -1,56 +1,58 @@
-$gradient-1: #1A619D; //#4f43cc;
-$gradient-2: #41C9A2; //#be44d2;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+$gradient-1: #1a619d; //#4f43cc;
+$gradient-2: #41c9a2; //#be44d2;
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: #000000;
 }
 
 .section-main {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #000000;
 }
 
 .logo-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .title {
-  padding: 10px 0;
-  color: #FFFFFF;
-  font-family: 'Poppins', sans-serif;
-  font-size: 3.2rem;
-  text-transform: uppercase;  
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
 
 .description {
-  //padding: 5px 0;
-  padding-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-  color: #FFFFFF;
+  font-size: 1.2rem;
+  color: #ffffff;
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
+  margin: 5px 0 15px 0;
 }
 
 .logo {
-  width: 500px;
-  height: 500px;
+  width: 453px;
+  height: 453px;
   fill: url(#mygradient);
   animation: floating 3s ease-in-out infinite;
 }
 
 .shadow {
   margin-top: -36px;
-  width: 0px; 
+  width: 0px;
   height: 0px;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
@@ -58,6 +60,41 @@ $gradient-2: #41C9A2; //#be44d2;
   filter: blur(4px);
   opacity: 0.9;
   animation: shadow 3s ease-in-out infinite;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-bottom: 10px;
+
+  > a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+
+    > i {
+      font-size: 2rem;
+    }
+
+    &:hover {
+      opacity: 0.8;
+      transition: 0.2s;
+    }
+  }
+}
+
+footer {
+  color: #fff;
+  padding-top: 25px;
+  font-weight: 300;
 }
 
 #mygradient stop.start-color {
@@ -121,5 +158,139 @@ $gradient-2: #41C9A2; //#be44d2;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     border-top: 10px solid rgba(255, 255, 255, 0.4);
+  }
+}
+
+/* Responsividade */
+@media (max-width: 720px) {
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    width: 353px;
+    height: 353px;
+  }
+
+  .icons {
+    > a {
+      width: 25px;
+      height: 25px;
+
+      > i {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .description {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .logo {
+    width: 253px;
+    height: 253px;
+  }
+
+  .icons {
+    > a {
+      width: 15px;
+      height: 15px;
+
+      > i {
+        font-size: 1.4rem;
+      }
+    }
+  }
+  footer {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 375px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .description {
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .logo {
+    width: 253px;
+    height: 253px;
+  }
+
+  .icons {
+    > a {
+      width: 10px;
+      height: 10px;
+
+      > i {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  footer {
+    font-size: 0.5rem;
+    font-weight: 300;
+  }
+}
+
+@media (max-height: 600px) and (min-width: 1024px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 0.6rem;
+  }
+
+  .logo {
+    width: 253px;
+    height: 253px;
+  }
+
+  .icons {
+    > a {
+      width: 25px;
+      height: 25px;
+
+      > i {
+        font-size: 1.8rem;
+      }
+    }
+  }
+  footer {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+}
+
+@media (max-height: 800px) and (min-width: 1280px) {
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    width: 353px;
+    height: 353px;
   }
 }
