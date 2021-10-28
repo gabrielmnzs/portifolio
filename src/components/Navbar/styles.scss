@@ -1,12 +1,10 @@
-$navbarHeight: 95px;
-
 .navbar {
   background-color: #FFF;  
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
-  height: $navbarHeight;
+  height: --navbar-height;
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -18,7 +16,7 @@ $navbarHeight: 95px;
   letter-spacing: 0.2em;
 
   &.is-hidden {
-    transform: translate(0, -$navbarHeight - 10);
+    transform: translate(0, - --navbar-height - 10);
     transition: transform 0.5s;
   }
   

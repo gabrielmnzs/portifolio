@@ -7,16 +7,17 @@ import About from './pages/About';
 import Work from './pages/Work';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <main>
       <Intro />
       <About />
-      <Work />
-      {/* 
+      <Work />      
       <Portfolio />
-      <Contact /> */}
+      <Contact />
+      <Footer></Footer>
     </main>
   );
 }

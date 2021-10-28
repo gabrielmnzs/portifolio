@@ -4,7 +4,9 @@ import './styles.scss';
 
 function Footer() {
   return (
-    <h1>Footer</h1>
+    <footer className="footer">
+      <p className="footer__text">Gabriel Menezes</p>
+    </footer>
   );
 }
 

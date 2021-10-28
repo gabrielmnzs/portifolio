@@ -1,32 +1,53 @@
 {
   "works": [
     {
-        "name": "Autoglass",
-        "role": "Desenvolvedor",
-        "start": "2017-01-20",
-        "end": "2018-06-01",
-        "present": false,
-        "description":
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
-      },
-      {
-        "name": "Mindworks",
-        "role": "Desenvolvedor",
-        "start": "2018-07-01",
-        "end": "2020-12-01",
-        "present": false,
-        "description":
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
-      },
-      {
-        "name": "Compasso Uol",
-        "role": "Desenvolvedor",
-        "start": "2020-12-09",
-        "end": "2017-01-20",
-        "present": true,
-        "description":
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
-      }
+      "name": "Tribunal de Justiça do Espírito Santo",
+      "role": "Estagiário de TI",
+      "start": "2013-09-01",
+      "end": "2015-09-01",
+      "present": false,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
+    },
+    {
+      "name": "Autoglass - Brasil",
+      "role": "Estagiário de TI",
+      "start": "2015-10-01",
+      "end": "2016-01-01",
+      "present": false,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
+    },
+    {
+      "name": "Autoglass - Brasil",
+      "role": "Desenvolvedor de Software",
+      "start": "2016-01-01",
+      "end": "2017-12-01",
+      "present": false,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
+    },
+    {
+      "name": "CONEXOS Consultoria e Sistemas",
+      "role": "Desenvolvedor de Software",
+      "start": "2017-12-01",
+      "end": "2018-03-01",
+      "present": false,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
+    },
+    {
+      "name": "Mindworks",
+      "role": "Analista Desenvolvedor",
+      "start": "2018-07-01",
+      "end": "2020-12-01",
+      "present": false,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
+    },
+    {
+      "name": "Compasso UOL",
+      "role": "Desenvolvedor de Software",
+      "start": "2020-12-09",
+      "end": "2020-12-09",
+      "present": true,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
+    }
   ],
   "projects": []
 }
