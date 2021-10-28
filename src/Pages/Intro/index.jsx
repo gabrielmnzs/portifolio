@@ -4,10 +4,10 @@ import { ReactComponent as Logo } from "./../../assets/img/Logo.svg";
 
 function Intro() {
   return (
-    <section className="wrapper">
-      <h3 className="wrapper__title">Gabriel Menezes</h3>
-      <p className="wrapper__subtitle">Desenvolvedor & Designer</p>
-      <figure className="wrapper__logo">
+    <section className="intro">
+      <h3 className="intro__title">Gabriel Menezes</h3>
+      <p className="intro__subtitle">Desenvolvedor & Designer</p>
+      <figure className="intro__logo">
         <Logo />
       </figure>
     </section>

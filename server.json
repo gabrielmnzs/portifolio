@@ -1,0 +1,32 @@
+{
+  "works": [
+    {
+        "name": "Autoglass",
+        "role": "Desenvolvedor",
+        "start": "2017-01-20",
+        "end": "2018-06-01",
+        "present": false,
+        "description":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
+      },
+      {
+        "name": "Mindworks",
+        "role": "Desenvolvedor",
+        "start": "2018-07-01",
+        "end": "2020-12-01",
+        "present": false,
+        "description":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
+      },
+      {
+        "name": "Compasso Uol",
+        "role": "Desenvolvedor",
+        "start": "2020-12-09",
+        "end": "2017-01-20",
+        "present": true,
+        "description":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc a dolor sodales mollis. Curabitur semper ante quis massa rutrum, quis porttitor orci condimentum. Pellentesque lacinia, augue in euismod lacinia, mauris neque ullamcorper mi, et feugiat est velit aliquam orci."
+      }
+  ],
+  "projects": []
+}

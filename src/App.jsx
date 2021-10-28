@@ -2,18 +2,19 @@ import React from 'react';
 
 import './styles/global.scss';
 
-import Intro from './Pages/Intro';
-import About from './Pages/About';
-import Work from './Pages/Work';
-import Portfolio from './Pages/Portfolio';
-import Contact from './Pages/Contact';
+import Intro from './pages/Intro';
+import About from './pages/About';
+import Work from './pages/Work';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 function App() {
   return (
     <main>
       <Intro />
-      {/* <About />
+      <About />
       <Work />
+      {/* 
       <Portfolio />
       <Contact /> */}
     </main>
