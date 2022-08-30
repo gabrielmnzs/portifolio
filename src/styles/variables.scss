@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 :root {
   /* COLORS */
-  --blue: #1a619d;
-  --green: #41c9a2;
-  --dark-blue: #4f43cc;
-  --purple: #be44d2;
-
-  --white: #FFFFFF;
-  --black: #000000;
-
-  --dark-grey: #2d2c2e;
+  --black: #111111;
+  --bright-blue: #1a619e;
+  --bright-cyan: #41c8a2;
+  --dark-blue: #122c34;
+  --dark-gray: #333333;
+  --deep-blue: #031926;
+  --light-gray: #959595;
+  --gray: #777777;
+  --white: #ffffff;
 
   /* FONT FAMILY */
-  --poppins: 'Poppins';
+  --poppins: "Poppins";
+  --mulish: "Mulish";
+  --open-sans: "Open Sans";
 
   /* FONT WEIGHT */
   --extra-light: 200;

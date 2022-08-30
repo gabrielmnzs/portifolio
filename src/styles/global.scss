@@ -8,17 +8,25 @@
 }
 
 body {
-  background: var(--dark-grey);
-  color: var(--white);
+  background: var(--white);
+  color: var(--dark-gray);
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, button {
+body,
+input,
+button {
   font-family: var(--poppins), sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
   font-weight: var(--medium);
 }
 
