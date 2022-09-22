@@ -4,14 +4,14 @@ import { format } from "date-fns";
 import Timeline from "../../components/Timeline";
 
 import { api } from "./../../services/api";
-import profile from "./../../assets/img/profile.png";
+import profile from "./../../assets/images/profile.png";
 import "./styles.scss";
 
 function Work() {
   const [works, setWorks] = useState([]);
   const [dates, setDates] = useState();
   const [selectedDateIndex, setSelectedDateIndex] = useState();
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     api.get("works").then((response) => {
@@ -46,7 +46,7 @@ function Work() {
                 dates={dates}
                 getSelectedIndex={handleSelectedDateIndex}
               />
-            ) }
+            )}
           </div>
           <div className="work__company-container">
             <ol className="work__list">

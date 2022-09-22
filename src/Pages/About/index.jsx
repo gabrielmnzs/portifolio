@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./styles.scss";
-import profile from "./../../assets/img/profile.png";
+import profile from "./../../assets/images/profile.png";
 
 function About() {
   return (
