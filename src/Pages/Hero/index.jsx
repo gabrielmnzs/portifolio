@@ -59,10 +59,7 @@ const Hero = () => {
           cloudOne,
           cloudThree,
         ]}
-        className="aspect-[2/1]"
-        style={{
-          height: "100vh",
-        }}
+        className="parallax-banner"
       >
         <div className="hero">
           <figure>
