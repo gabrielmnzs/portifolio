@@ -1,0 +1,46 @@
+// Mobile S
+@mixin mobile-small {
+  @media (min-width: 320px) {
+    @content;
+  }
+}
+
+// Mobile M
+@mixin mobile-medium {
+  @media (min-width: 375px) {
+    @content;
+  }
+}
+
+// Mobile L
+@mixin mobile-large {
+  @media (min-width: 425px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+// Laptop L
+@mixin desktop {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+
+// 4K
+@mixin ultra-high-definition {
+  @media (min-width: 2560px) {
+    @content;
+  }
+}
