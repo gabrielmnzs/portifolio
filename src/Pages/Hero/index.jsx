@@ -2,14 +2,14 @@ import { ParallaxProvider, ParallaxBanner } from "react-scroll-parallax";
 
 import "./styles.scss";
 
-import { ReactComponent as Logo } from "./../../assets/images/Logo.svg";
+import logo from "./../../assets/images/logo.png";
 
 const Hero = () => {
   const mountCenter = {
     image:
       "https://user-images.githubusercontent.com/8618609/190287801-e66eb9e3-e1f5-4ea7-9833-36bc22137c87.png",
     expanded: false,
-    translateY: [0, 70],
+    translateY: [0, 80],
     speed: -5,
   };
 
@@ -37,7 +37,7 @@ const Hero = () => {
   const cloudOne = {
     image:
       "https://user-images.githubusercontent.com/8618609/190287259-62a3dc19-f36e-44cf-bcbf-257befbb9b42.png",
-    translateY: [0, 10],
+    translateY: [0, 50],
     speed: -5,
   };
 
@@ -62,9 +62,7 @@ const Hero = () => {
         className="parallax-banner"
       >
         <div className="hero">
-          <figure>
-            <Logo />
-          </figure>
+          <img src={logo} alt="logo" />
           <h3 className="hero__title">Gabriel Menezes</h3>
           <p className="hero__subtitle">Desenvolvedor & Designer</p>
         </div>
